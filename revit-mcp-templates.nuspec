@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>revit-mcp-templates</id>
+    <version>1.0.0</version>
+    <title>Revit MCP Development Template</title>
+    <authors>revit-mcp</authors>
+    <description>Template for quickly creating Revit commands based on MCP</description>
+    <tags>dotnet-new templates revit mcp</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="Standard\**\*" target="content\Standard\" exclude="**\bin\**;**\obj\**;**\.vs\**;**\.git\**" />
+  </files>
+</package>
